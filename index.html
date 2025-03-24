@@ -121,6 +121,55 @@
             <img src="hope.jpg" alt="Hope Meals Mission">
         </div>
     </section>
+
+    <section class="faq-section">
+        <div class="faq-container">
+            <!-- Left Section -->
+            <div class="faq-left">
+                <h1>FAQs</h1>
+                <p>Discover how HopeMeals connects donors and NGOs to combat food waste and feed those in need.</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+
+            <!-- Right Section -->
+            <div class="faq-right">
+                <div class="faq-item">
+                    <h3 class="faq-question">How does it work?</h3>
+                    <p class="faq-answer">HopeMeals connects food donors with NGOs through an easy-to-use platform. Donors can upload details and images of food available for donation. NGOs can then claim these donations to distribute meals to those in need.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Who can donate?</h3>
+                    <p class="faq-answer">Anyone with surplus food can donate through HopeMeals. This includes individuals, restaurants, and grocery stores. Our platform makes it simple to share food and reduce waste.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How do NGOs register?</h3>
+                    <p class="faq-answer">NGOs can register by filling out a simple form on our website. Once approved, they gain access to the dashboard to claim donations. This process ensures that only verified organizations can distribute food.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Is food safety ensured?</h3>
+                    <p class="faq-answer">Yes, we prioritize food safety. Our AI verification system checks the freshness of donated food before it's claimed. This ensures that only safe and quality food reaches those in need.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Question text goes here</h3>
+                    <p class="faq-answer">You can help by donating food or spreading the word about our platform. Every contribution counts in the fight against food waste. Join us in making a difference today!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll(".faq-question").forEach(item => {
+            item.addEventListener("click", () => {
+                const answer = item.nextElementSibling;
+                answer.style.display = answer.style.display === "block" ? "none" : "block";
+            });
+        });
+    </script>
+
+
     <script src="script.js"></script>
 </body>
 </html>
