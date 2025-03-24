@@ -1,0 +1,289 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hope {
+    color: black;
+}
+
+.meals {
+    color: #2BB673;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #2BB673;
+}
+
+/* User Actions */
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.signup {
+    background-color: #2BB673;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background: #f6fdf9;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+/* Tagline */
+.tagline {
+    display: inline-block;
+    background: #DFF6E0;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #228B22;
+    font-weight: bold;
+}
+
+/* Headline */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #1a1a1a;
+}
+
+/* Highlighted Words */
+.highlight {
+    color: #2BB673;
+}
+
+.highlight-people {
+    color: #0074E4;
+    text-decoration: underline;
+}
+
+/* Description */
+.description {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background: #2BB673;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background: white;
+    border: 2px solid #2BB673;
+    color: #2BB673;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Impact Stats */
+.impact-stats {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Hero Image and AI Analysis */
+/* Hero Image Section */
+.hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/* Food Analysis Card */
+.food-card {
+    width: 90%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+    position: relative;
+    transform: rotate(-3deg);  /* Slightly tilted */
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-card:hover {
+    transform: rotate(0deg);  /* Aligns when hovered */
+}
+
+/* Food Label */
+.food-label {
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+/* Analysis Box */
+.analysis-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: rotate(2deg);  /* Slight tilt */
+}
+
+/* Status Labels */
+.status-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.status {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.fresh {
+    color: green;
+    background: #e3fcef;
+}
+
+.verified {
+    color: blue;
+    background: #e3ebff;
+}
+
+.ready {
+    color: purple;
+    background: #f5e3ff;
+}
+
+/* Quality Bar */
+.quality-bar {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.quality-fill {
+    height: 100%;
+    background: #2BB673;
+    width: 88%;
+    border-radius: 4px;
+}
+
+/* Quality Score */
+.quality-score {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
+}.hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/* Food Card */
+.food-card {
+    width: 90%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Food Label */
+.food-label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;  /* Adds space below the text */
+}
+
+/* Food Image */
+.food-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-top: 10px;  /* Ensures extra spacing between text and image */
+}
+
