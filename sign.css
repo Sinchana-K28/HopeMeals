@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .logo .highlight {
+    color: #00aaff;
+  }
+  .logo .heart {
+    font-size: 20px;
+    color: green;
+  }
+  
+  .headline {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .subheadline {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .toggle-buttons button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    background: #f1f1f1;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    transition: background 0.3s;
+  }
+  .toggle-buttons .active {
+    background-color: #2bb673;
+    color: white;
+  }
+  #ngoBtn.active {
+    background-color: #00aaff;
+  }
+  
+  .form {
+    display: none;
+    text-align: left;
+  }
+  .active-form {
+    display: block;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group-inline {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .form-group-inline div {
+    flex: 1;
+  }
+  .form-group.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .submit-btn.green {
+    background-color: #2bb673;
+  }
+  .submit-btn.blue {
+    background-color: #00aaff;
+  }
+  
+  .signin-link {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  
